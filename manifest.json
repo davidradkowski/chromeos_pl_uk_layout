@@ -1,0 +1,22 @@
+{
+  "name": "Polish UK Leyboard",
+  "manifest_version":2,
+  "version": "1.0",
+  "description": "Polish UK Layout",
+  "background": {
+    "scripts": [ "app.js" ]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Polish UK Layout",
+      "type": "ime",
+      "id": "polish-uk",
+      "description": "Polish UK Layout",  
+      "language": "pl",  
+      "layouts": ["gb"]
+    }
+  ]
+}
